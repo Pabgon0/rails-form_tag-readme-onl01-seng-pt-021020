@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 require 'rails_helper'
  
 describe 'new post' do
@@ -23,13 +22,4 @@ describe 'new post' do
     expect(page).to have_content('My post title')
     expect(page).to have_content('My post description')
   end
-=======
-require 'rails_helper'
- 
-describe 'new post' do
-  it 'ensures that the form route works with the /new action' do
-    visit new_post_path
-    expect(page.status_code).to eq(200)
-  end
->>>>>>> bd46167b208c667061fb1673b16a64fed6bfa114
 end
